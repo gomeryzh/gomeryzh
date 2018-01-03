@@ -11,45 +11,39 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="topbar">
-            <img src="img/linkid.png" alt="linkid">
-            <img src="img/twit.png" alt="twit">
-            <img src="img/pinterest.png" alt="pinterest">
-            <img src="img/google.png" alt="google+">
-            <img src="img/wifi.png" alt="wifi">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus fugit aliquam voluptatum laborum facere, iure maiores ipsum harum vitae animi.
-        </div>
-        <div class="nav">
+    <div class="wrapper">
+        <header>
+            <div class="logo">Blue<span>Pink</span>.com</div>
+            <nav>
+                <ul>
+                    <li><a href="" class="link">Home</a></li>
+                    <li><a href="" class="link">About</a></li>
+                    <li><a href="" class="link">Blogs</a></li>
+                    <li><a href="" class="link">Work</a></li>
+                    <li><a href="" class="link">News</a></li>
+                    <li><a href="" class="link">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
 
-        </div>
-    </div>
-    <div class="slider">
+            </section>
+            <section>
 
-    </div>
-    <div class="content">
-        <div class="services">
+            </section>
+            <section>
 
-        </div>
-        <div class="shout">
+            </section>
+            <aside>
 
-        </div>
-    </div>
-    <div class="footer">
-        <div class="blog">
-
-        </div>
-        <div class="contacts">
-
-        </div>
-        <div class="inputs">
-
-        </div>
+            </aside>
+        </main>
 
     </div>
-    <div class="copyright">
+    <footer>
 
-    </div>
+    </footer>
 </body>
 
 </html>
