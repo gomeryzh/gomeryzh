@@ -1,21 +1,39 @@
 .wrapper {
     width: 1000px;
     margin: auto;
+    padding-top: 15px;
 }
 body {
     background-color: #373e47;
+    color: #ffffff;
 }
-.main {
+main {
     background-color: #4d596a;
+    border-radius: 4px;
+    padding-top: 10px;
 }
 header {
     background-color: #ececec;
     padding: 13px 55px 15px 16px;
+    border-radius: 4px;
+    margin-bottom: 18px;
 }
-header span {
+header .black {
+    color: #373e47;
+    font-size: 24px;
+    font-weight: 700;
+}
+header .pink {
     color: #a45f93;
+    font-size: 24px;
+    font-weight: 700;
 }
-nav li {
+header .gray {
+    color: #8b95a4;
+    font-size: 18px;
+    font-weight: 700;
+}
+header .menu li {
     display: inline-block;
     width: 16%;
 }
@@ -23,12 +41,112 @@ nav li {
     display: block;
     text-decoration: none;
 }
-nav {
+header .menu {
     display: inline-block;
-    width: 60%;
+    width: 64%;
+}
+header .menu .link {
+    font-size: 14px;
+    font-weight: 700;
+    color: #143567;
+    text-align: right;
+}
+header .menu .link:hover {
+    color: #a45f93;
 }
 header .logo {
     display: inline-block;
     width: 15%;
     margin-right: 185px;
+}
+aside {
+    width: 21%;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #373e47;
+    display: inline-block;
+}
+aside .list img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+aside .list .link {
+    font-size: 13px;
+    color: #e4e4e4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+aside .list li {
+    border-bottom: 1px solid #4c545e;
+}
+main .content {
+    width: 73%;
+    /* background-color: burlywood; */
+    display: inline-block;
+    /* vertical-align: top; */
+}
+.article .title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.article .text {
+    font-size: 12px;
+    margin-bottom: 25px;
+    color: #e4e4e4;
+    /* color: #c9c9ca; */
+}
+.article .text span {
+    color: #a45f93;
+}
+.article .subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.article img {
+    margin-right: 10px;
+}
+.content .lists {
+    padding-top: 25px;
+}
+.content .lists .title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.content .lists .subtitle {
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.unordered ul {
+    padding-left: 17px;
+}
+.unordered li {
+    font-size: 13px;
+    list-style-type: disc;
+}
+.ordered ol {
+    padding-left: 17px;
+}
+.ordered li {
+    font-size: 13px;
+    list-style-type: decimal;
+}
+.descriptions p {
+    font-size: 13px;
+}
+.content .lists .unordered {
+    display: inline-block;
+    width: 33%;
+}
+.content .lists .ordered {
+    display: inline-block;
+    width: 33%;
+}
+.content .lists .descriptions {
+    display: inline-block;
+    width: 33%;
+    margin-left: -4px;
 }

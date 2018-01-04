@@ -13,31 +13,145 @@
 <body>
     <div class="wrapper">
         <header>
-            <div class="logo">Blue<span>Pink</span>.com</div>
-            <nav>
+            <div class="logo">
+                <span class="black">Blue</span>
+                <span class="pink">Pink</span>
+                <span class="gray">.com</span>
+            </div>
+            <nav class="menu">
                 <ul>
-                    <li><a href="" class="link">Home</a></li>
-                    <li><a href="" class="link">About</a></li>
-                    <li><a href="" class="link">Blogs</a></li>
-                    <li><a href="" class="link">Work</a></li>
-                    <li><a href="" class="link">News</a></li>
-                    <li><a href="" class="link">Contacts</a></li>
+                    <li>
+                        <a href="#" class="link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Blogs</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Work</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">News</a>
+                    </li>
+                    <li>
+                        <a href="#" class="link">Contacts</a>
+                    </li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section>
-
-            </section>
-            <section>
-
-            </section>
-            <section>
-
-            </section>
             <aside>
+                <div class="items">
+                    <ul class="list">
+                        <li>
+                            <a href="#" class="link">
+                                <img src="img/arrow.png" alt="arrow">Lorem ipsum dolor sit
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <img src="img/arrow.png" alt="arrow">Lorem ipsum dolor sit
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <img src="img/arrow.png" alt="arrow">Lorem ipsum dolor sit
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <img src="img/arrow.png" alt="arrow">Lorem ipsum dolor sit
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <img src="img/arrow.png" alt="arrow">Lorem ipsum dolor sit
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <img src="img/arrow.png" alt="arrow">Lorem ipsum dolor sit
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <img src="img/arrow.png" alt="arrow">Lorem ipsum dolor sit
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <img src="img/arrow.png" alt="arrow">Lorem ipsum dolor sit
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <img src="img/arrow.png" alt="arrow">Lorem ipsum dolor sit
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <img src="img/arrow.png" alt="arrow">Lorem ipsum dolor sit
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="article">
 
+                </div>
+                <!-- Заокруглити края і зробити тінь для 2 блоків всередині aside -->
             </aside>
+            <section class="content">
+                <section class="article">
+                    <h1 class="title">Lorem ipsum dolor sit, amet consectetur adipisicing.</h1>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis,
+                        ducimus. Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Pariatur error corporis quibusdam? Reprehenderit incidunt
+                        voluptatum, voluptate soluta expedita at quis! Lorem ipsum
+                        dolor sit amet consectetur, adipisicing elit. Adipisci, cum.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eveniet ut recusandae exercitationem dicta,
+                        <span>laborum dignissimos veritatis</span>
+                        cum numquam pariatur quidem at fugiat consequatur soluta tempora.
+                    </p>
+                    <h2 class="subtitle">Images</h2>
+                    <img src="img/img.jpg" alt="img">
+                    <img src="img/img.jpg" alt="img">
+                    <img src="img/img.jpg" alt="img">
+                </section>
+                <section class="lists">
+                    <h2 class="title">Lists and Discription</h2>
+                    <div class="unordered">
+                        <h3 class="subtitle">Unordered list</h3>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                        </ul>
+                    </div>
+                    <div class="ordered">
+                        <h3 class="subtitle">Ordered list</h3>
+                        <ol>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Lorem ipsum dolor sit amet</li>
+                        </ol>
+                    </div>
+                    <div class="descriptions">
+                        <h3 class="subtitle">Descriptions</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Doloremque repudiandae nobis laudantium eius eos nesciunt
+                            tempora, eligendi fuga eaque numquam!</p>
+                    </div>
+                </section>
+                <section class="forms">
+
+                </section>
+            </section>
+
         </main>
 
     </div>
