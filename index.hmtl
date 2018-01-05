@@ -97,10 +97,20 @@
                         </li>
                     </ul>
                 </div>
-                <div class="article">
-
+                <div class="figure">
+                    <h3 class="headline">Left Block</h3>
+                    <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
+                        itaque! Alias exercitationem commodi voluptas modi, itaque
+                        similique. Ullam velit sequi laborum dolorum voluptatum molestias
+                        at corporis error, maiores corrupti dolores praesentium dignissimos
+                        nobis nam aut vitae labore asperiores deserunt aliquam.</p>
+                    <div class="details">
+                        <a href="#" class="link">
+                            Read more
+                            <img src="img/arrow.png" alt="arrow">
+                        </a>
+                    </div>
                 </div>
-                <!-- Заокруглити края і зробити тінь для 2 блоків всередині aside -->
             </aside>
             <section class="content">
                 <section class="article">
@@ -146,6 +156,7 @@
                             Doloremque repudiandae nobis laudantium eius eos nesciunt
                             tempora, eligendi fuga eaque numquam!</p>
                     </div>
+                    <!-- доробити таблицю і форми -->
                 </section>
                 <section class="forms">
 
@@ -156,7 +167,7 @@
 
     </div>
     <footer>
-
+        &#169; Footer content <a href="#" class="link">Link footer</a>
     </footer>
 </body>
 
